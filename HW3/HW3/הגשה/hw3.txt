@@ -1,0 +1,15 @@
+-- Nitai Aharoni
+-- 203626742
+
+
+-- Nadav Lotan 
+-- 312346406
+
+
+
+1) In general, we will expect that feature scaling will improve the KNN algorithm because it will cause the differences between the values of each attributes to be at the same scale and the comparison will have to deal with smaller gaps between the data and there will be no "advantage" to any attribute (could be a wrong advantage) which should make the output a bit more accurate. 
+Regarding the decision tree model, we don't expect that feature scaling will have a positive effect because the check within the algorithm is being done on each attribute, therefore the scaling is irrelevant and won't affect the chosen attribute. Scaling of the attribute will only cause the tree to be split into children by a delta of smaller values.
+
+
+
+2) In our opinion, due to the fact that our data has a continues class values, therefore the prediction of an instance is nearly impossible and editing the data by backword and forward KNN and trying to filter out some instances (Whether it is classified correctly or not) won't be helpfull for this kind of data, and it won't change the original data. The above algorithm is suitable for use only when these are discrete values.
